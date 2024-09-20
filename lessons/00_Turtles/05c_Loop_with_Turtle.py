@@ -62,6 +62,10 @@ tina.left(150)
 tina.forward(40)
 tina.pendown()
 
+tina.right(90)
+tina.forward(70)
 
+tina.right(120)
+tina.forward(70)
 
 turtle.exitonclick()   
