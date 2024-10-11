@@ -8,15 +8,16 @@ Then change the code so that the turtle has a different image ( look in the 'ima
 directory ) and moves to the corners of the screen in a square pattern. 
 """
      
-import turtle as turtle
+import arrow as arrow
 
-screen = turtle.Screen()
+screen = arrow.Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor('white')
 
-t = turtle.Turtle()
+t = arrow.arrom()
 t.penup()
-t.shape("turtle")
+t.shape("arrow")
+
 
 # This is the function that gets called when you click on the screen
 def screen_clicked(x, y):
@@ -27,4 +28,13 @@ def screen_clicked(x, y):
   
 screen.onclick(screen_clicked) # Important! Tell Python which function to use when the screen is clicked
 
-turtle.done() # Important! Use 
+
+
+t.left(40)
+t.forward(100)
+
+
+
+
+
+arrow.done() # Important! Use 

@@ -21,7 +21,23 @@ def draw_polygon(sides):
     
     for i in range(...):                 # Loop through the number of sides
         ...                              # Move tina forward by the forward distance
-        ...                              # Turn tina left by the left turn
+tina.left(72)
+tina.forward(50)
+
+tina.left(72)
+tina.forward(50)
+
+tina.left(72)
+tina.forward(50)
+
+tina.left(72)
+tina.forward(50)
+
+tina.left(72)
+tina.forward(50)
+
+
+turtle.exitonclick()                                  # Turn tina left by the left turn
 
 
 draw_polygon(...)                        # Draw a square
