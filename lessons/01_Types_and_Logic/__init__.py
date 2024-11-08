@@ -9,14 +9,14 @@ window.withdraw()  # ;
 # 1. Create a variable to hold the user's score. Set it equal to zero.
 score = 0  # ;
 
-response = simpledialog.askstring(None, "Which is better, Python or Java?")  # ;
+response = simpledialog.askstring(None, "are you ready for this test")  # ;
 
-if response.lower() == "python":  # ;
+if response.lower() == "Yes":  # ;
     score += 1  # ;
     print("Correct! Your score is " + str(score))  # ;
 else:  # ;
     score -= 1  # ;
-    messagebox.showerror(message="WRONG! It's Python of course!")  # ;
+    messagebox.showerror(message="WRONG! It's yess of course!")  # ;
 
 messagebox.showinfo(message="Your final score is " + str(score))  # ;
 # ASK A QUESTION AND CHECK THE ANSWER
@@ -37,12 +37,20 @@ messagebox.showinfo(message="Your final score is " + str(score))  # ;
 score = 0  # ;
 
 questions = [  # ;
-    "Which is better, Python or Java?",  # ;
-    "What does OOP stand for?",  # ;
+    "what is 2+2?",  # ;
+    "what dose 2 to the power of 100",  # ;
     "How many days in a non-leap year?",  # ;
+    "Now time for level 2 get ready",  # ;
+    "are you sure",  # ;
+    "are you serious" # ;
+    "what is 10 times 10" # ;
+
+
+
+
 ]  # ;
 
-answers = ["python", "object orientated programming", "366"]  # ;
+answers = ["4", "1.2676506e+30", "366", "ok", "yes", "yes"]  # ;
 
 # Loop through each question in the questions list and ask the user for their response to each one using the simpledialog.askstring() method and an if statement to check if their response is correct or not and change the score accordingly using the score variable you created earlier.  # ;
 for i in range(len(questions)):  # ;
@@ -50,10 +58,10 @@ for i in range(len(questions)):  # ;
 
     if response.lower() == answers[i]:  # ;
         score += 1  # ;
-        print("Correct! Your score is " + str(score))  # ;
+        print("Correct! Get back to work " + str(score))  # ;
     else:  # ;
         score -= 1  # ;
-        messagebox.showerror(message="WRONG! It's " + answers[i] + " of course!")  # ;
+        messagebox.showerror(message="WRONG! your a dissapoinment its " + answers[i] + " of course!")  # ;
 
 messagebox.showinfo(message="Your final score is " + str(score))  # ;
 

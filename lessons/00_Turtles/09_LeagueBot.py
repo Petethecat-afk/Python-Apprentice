@@ -11,3 +11,11 @@ Write your own turtle program! Here is what your program should do
 
 import turtle as turtle
 
+import turtle                           # Tell Python we want to work with the turtle
+turtle.setup(width=10, height=10)     # Set the size of the window
+
+tina = turtle.Turtle()  
+
+tina.forward(50)
+
+turtle.exitonclick()  

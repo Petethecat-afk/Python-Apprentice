@@ -7,3 +7,15 @@
  
 ... # Your code here
 
+import arrow
+                          # Tell Python we want to work with the turtle
+arrow.setup(width=10, height=10)     # Set the size of the window
+
+tina = arrow.arrow()  
+
+tina.forward(50)
+
+tina.left(100)
+
+
+arrow.exitonclick()  

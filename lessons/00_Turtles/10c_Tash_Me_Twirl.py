@@ -9,3 +9,11 @@ Hint: See 08a_More Turtle Programs, section 'Click on the Turtle'
 
 ... # Your code here
 
+import turtle                           # Tell Python we want to work with the turtle
+turtle.setup(width=10, height=10)     # Set the size of the window
+
+tina = turtle.Turtle()  
+
+tina.forward(50)
+
+turtle.exitonclick()  
